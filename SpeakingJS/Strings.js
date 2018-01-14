@@ -21,6 +21,10 @@ function strMethods() {
     console.log(str.indexOf('b'));   // 1
     console.log(str.indexOf('bc'));  // 1
     console.log(str.indexOf('q'));   // -1
+
+    //lastIndexOf -> starting at position backward  !!!
+    console.log('aXaX'.lastIndexOf('X'));  //  3
+    console.log('aXaX'.lastIndexOf('X', 2));  //  1
     
     
     let str2 = '    123   ';        // '123'
